@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Asli Beyhan",
+        "department":"Bilişim",
+        "salary" : 3500
+    },
+    {
+        "name":"Koray Cenker",
+        "department":"Mühendislik",
+        "salary" : 4000
+    },
+    {
+        "name":"Burak Güngör",
+        "department":"Pazarlama",
+        "salary" : 5000
+    }
+
+
+
+]

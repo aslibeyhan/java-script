@@ -1,0 +1,30 @@
+JavaScripttin backend tarafında da çalışmasını sağlar.
+JS ilk çıktığında sadece html sayfalrına dinamizm katmak için cikmisti.
+cmd -> node -v diyerek versiyonu learned.
+cmd -> npm -v 
+NodeJs de asenkron bir şekilde çalışır.
+NodeJs eventDriven (olay odaklı) dır.
+NodeJs indirince tarayıcıya ihtduymadan .js kodlarını terminal de görebilirsin.
+Terminal -> node index.js / node index  çalıştırabilirsin.
+NPM(Node Package Manager) -> Paketlemenin önemi ve avantajı.
+JS her şey a..ık kaynak.
+Paketleri internet ortamına yüklemeni sağlayan site -> npmjs.com 
+Yani nmp,  projende sana lazım olabilecek paketleri yüklemeni sağlar.
+Terminal -> npm install/i  istediginpaket ismi paket yükleyebilirsin.NodeModules dosyasına eklicek.
+cmd -> npm root -g ->globak paketleri gösterir.
+tüm ortak olarak kull paketleri global olarak kur.
+sadece geliştime ortamında kullanacağın ortak modülleri global kur diğerlerini yerel paket olarak kur.
+npm init -> belirli sorular gelir packahe oluşturmak için .
+package.lock-json node modülesdeki değişiklikleri gösterir.
+npm install ->package json bakar ->dependency lerdeki paketleri yükler.
+sadece dev kısmına paket yüklemek için -> npm install webpack-cli --save-dev ile yükler.package.jsona.
+cmd git yazarsan notlar gelirse kurulum tamamlandı demektir.
+
+*** vscode -> terminal -> echo readme ->git init -> git add . -> git commit -m 'first-commit' -> git remote add origin repoAdresi
+       ->git push -u origin master
+
+Güzel paketler oluşturduysan nmp js sitesinde paylaşabilirsin.Hesap açarak.
+Sonra paketine git -> terminalde ->npm login ->userName,email ve password alanları gelecek -> npm publish ile yayınla
+
+Paketi yayından kaldırmak için -> aynı paket terminalinde login ol -> terminalden npm unpublish paket ismi --force ile bitir. 
+

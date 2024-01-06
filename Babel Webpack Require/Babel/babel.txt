@@ -1,0 +1,10 @@
+Bir tercümandır.ES6 ve sonrasında gelen JavaScript değişikliklerini arka planda ES5 çevirir.
+Çünkü ES6 ve ES7 deki metodlar tüm brwoser larda çalışmayabilir so babel kull.
+Daha çok büyük projelerde kull.
+Bir node modülüdür. 
+BabelJs.oi sitesini incelebsin. Preset kısmından istediğin ES sürümüne çevşrmesi için seçim yaomalısın.
+Babel cli ,babel polyfil, babel preset env ve babel core paketlerini npm den indiricez.(cli-coment line interface)
+***Package oluştur ->Terminal -> nmp insttall -> ğackage json oluşur -> sonra isteidğin paketleri npm i paket adı*** .
+-..is not recognizedas an internal or external commandoperable programor batch file hatası alırsan localdaki npm i globaldeki dosya görmüyor demektir.çözmek için 
+.\node_modules\.bin\babel src -d(dönüştür) lib gönder.
+İstersen bunları package jsonda daha kısa isim yazarak örn build: babel src -d(dönüştür) lib  diyeyerek npm run build do it.

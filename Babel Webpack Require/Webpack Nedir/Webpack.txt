@@ -1,0 +1,13 @@
+Büyük çaplı projelerde javaScript dosyalarıın birbirini kullanması için modül denen yapı ortaya çıkmıştır.
+Dosyaları "export" ederek dışarı açar, "import" ederek dışardan alırsın.
+Artık modüler bir yapı ile "import" ederek kullanılır.
+Performansı arttırır.Js dosyalarını kullanmak istediğimiz zaman yükler.
+Birbirine bağlı js dosyalarını tek bir js dosyası haline getirir.
+Yani kısacacı Webpack projemizdeki css ve js dosyalarını bir ağaç halinde birbirine bağlayarak tek bir dosya haline getirir ve sadece
+gerektiğinde yükler böylece daha düzenli dosya yapısı ile daha performanslı çalışmış olur .
+C:\Users\aslib\OneDrive\Masaüstü\sifirdanJsMustafaMuratHoca\Babel Webpack Require\Webpack Nedir\Webpack kullanimi>npm install package json oluşturduk.
+C:\Users\aslib\OneDrive\Masaüstü\sifirdanJsMustafaMuratHoca\Babel Webpack Require\Webpack Nedir\Webpack kullanimi>npm install
+ @babel/core @babel/polyfill @babel/preset-env babel-loader --save-dev yaptık .
+ \Webpack kullanimi>npm install wepack-cli webpack --save-dev yaptık.
+ Bundle ->Bağlanmış.
+ 
